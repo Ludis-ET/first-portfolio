@@ -18,7 +18,7 @@ class Me(models.Model):
 class Skill(models.Model):
     person = models.ForeignKey(Me,on_delete=models.CASCADE)
     name = models.CharField(max_length=255)
-    time = models.IntegerField(null=True)
+    time = models.IntegerField(null=True,blank=True)
     
     def __str__(self):
         return self.name
