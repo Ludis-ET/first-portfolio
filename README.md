@@ -1,4 +1,4 @@
-# MY Portfolio
+<!-- # MY Portfolio
 
 Welcome to my portfolio! I'm Leulseged Melaku, a passionate software engineer with a focus on [mention specific areas of interest or expertise]. Explore my projects and get to know more about my journey in the world of software development.
 
@@ -33,4 +33,4 @@ Feel free to reach out if you have any questions or opportunities for collaborat
 
 ---
 
-Thank you for visiting my portfolio! If you like what you see, don't hesitate to connect with me. I am always open to new challenges and exciting projects.
+Thank you for visiting my portfolio! If you like what you see, don't hesitate to connect with me. I am always open to new challenges and exciting projects. -->
