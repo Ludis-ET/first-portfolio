@@ -42,7 +42,7 @@ class Experience(models.Model):
     name = models.CharField(max_length=255)
     title = models.CharField(max_length=255)
     discription = models.TextField(max_length=500)
-    time = models.IntegerField(null=True,blank=True)
+    time = models.CharField(max_length=255,null=True,blank=True)
     
     def __str__(self):
         return self.name
@@ -53,7 +53,7 @@ class Education(models.Model):
     school = models.CharField(max_length=255)
     department = models.CharField(max_length=255)
     discription = models.TextField(max_length=500)
-    time = models.IntegerField(null=True,blank=True)
+    time = models.CharField(max_length=255,null=True,blank=True)
     
     def __str__(self):
         return self.school
