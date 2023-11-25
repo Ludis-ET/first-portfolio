@@ -5,7 +5,7 @@ class Me(models.Model):
     nick_name = models.CharField(max_length=255,null=True)
     github = models.URLField(max_length=2000,blank=True)
     email = models.EmailField()
-    phone = models.IntegerField(null=True)
+    phone = models.IntegerField(null=True,blank=True)
     linkedin = models.URLField(max_length=2000,blank=True)
     insta = models.URLField(max_length=2000,blank=True)
     telegram = models.URLField(max_length=2000,blank=True)
