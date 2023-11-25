@@ -23,5 +23,16 @@
       "src": "/(.*)",
       "dest": "portfolio/wsgi.py"
     }
+    
+  ],
+  "rewrites": [
+    {
+      "source": "/media/(.*)",
+      "destination": "/path/to/your/media/folder/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/path/to/your/django/app/$1"
+    }
   ]
 }
