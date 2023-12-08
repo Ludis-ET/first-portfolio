@@ -149,8 +149,12 @@
                               <b>{{project.name}}</b>
                               <p>{{project.disc}}</p>
                               <div id="icons">
+                                {% if project.url %}
                                 <a target="_blank" href="{{project.url}}"><iconify-icon style="position:relative; background: #fff; border-radius: 10px;margin-top: 100px;padding: 10px;" icon="mingcute:eye-line"></iconify-icon></a>
+                                {% endif %}
+                                {% if project.github %}
                                 <a target="_blank" href="{{project.github}}"><iconify-icon style="position:relative; background: #fff; border-radius: 10px;margin-top: 100px;padding: 10px;" icon="jam:github"></iconify-icon></a>
+                                {% endif %}
                               </div>
                             </div>
                           </div>
