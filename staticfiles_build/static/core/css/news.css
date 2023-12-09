@@ -12,7 +12,9 @@ body {
   font-family: "Maven Pro", sans-serif;
   padding-top: 70px;
 }
-
+.about-text p{
+  padding-top:30px;
+}
 .full-screen {
   padding: 8rem 0;
 }
