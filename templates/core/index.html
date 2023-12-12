@@ -40,7 +40,7 @@
 {% endfor %}
 </style>
   </head>
-  <body class="dark-mode"> 
+  <body> 
 
     <!-- MENU -->
     <nav class="navbar navbar-expand-sm navbar-light">
@@ -171,7 +171,7 @@
     <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
         <div class="container">
             <div class="row">
-
+{% if experiences %}
                 <div class="col-lg-6 col-12">
                   <h2 class="mb-4">Experiences</h2>
 
@@ -189,7 +189,7 @@
                         {% endfor %}
                     </div>
                 </div>
-
+{% endif %}
                 <div class="col-lg-6 col-12">
                   <h2 class="mb-4 mobile-mt-2">Educations</h2>
 
